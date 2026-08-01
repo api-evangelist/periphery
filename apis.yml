@@ -1,7 +1,29 @@
 aid: periphery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/periphery.png
 name: Periphery
-description: Periphery is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Periphery is a cybersecurity company providing embedded, device-level threat
+  management for critical industrial and defence platforms. Its lightweight,
+  architecture-agnostic agent secures, fingerprints, and continuously monitors
+  devices, detecting unauthorized changes and hardening what is risky even in
+  constrained, offline, or air-gapped environments. The platform spans three
+  products: Insights (point-in-time security evaluation with agent-based
+  pen-testing and SBOM risk analysis), Vantage (on-prem intelligence that
+  establishes a known-good baseline, detects change, and restores devices), and
+  Outpost (real-time on-device threat detection and prevention for air-gapped
+  deployments). Periphery targets regulatory compliance across NDAA, EU CRA,
+  NIS2, UN R155, UN R156, and IEC 62443. It is a Techstars portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/periphery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Critical Infrastructure
+- Embedded Systems
+- Device Security
+- Threat Detection
+- Compliance
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/periphery-domain-security.yml
+- type: Conformance
+  url: conformance/periphery-conformance.yml
+- type: Compliance
+  url: https://www.periphery.security/
 - type: Website
   url: https://periphery.security/
+- type: PrivacyPolicy
+  url: https://www.periphery.security/privacy-policy
+- type: Blog
+  url: https://www.periphery.security/newsandblog
+- type: Support
+  url: mailto:contact-us@periphery.security
+- type: Login
+  url: https://app.periphery.security
+- type: LinkedIn
+  url: https://www.linkedin.com/company/peripherysecurity/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1

@@ -1,0 +1,38 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.periphery.security/
+notes: >-
+  Periphery publishes no public API/OpenAPI, so cross-cutting API standards
+  (oauth2, oidc, rfc9457, etc.) are not assessable. The standards below are the
+  security-certification and regulatory-compliance posture the company states on
+  its public marketing site for its embedded device-security platform (Insights,
+  Vantage, Outpost).
+standards:
+- id: iso-27001
+  name: ISO/IEC 27001:2013
+  conforms: true
+  evidence: ISO/IEC 27001:2013 certification badge displayed on periphery.security
+- id: ndaa
+  name: NDAA (Section 889)
+  conforms: true
+  evidence: stated as a supported regulatory compliance target
+- id: eu-cra
+  name: EU Cyber Resilience Act
+  conforms: true
+  evidence: stated as a supported regulatory compliance target
+- id: nis2
+  name: NIS2 Directive
+  conforms: true
+  evidence: stated as a supported regulatory compliance target
+- id: un-r155
+  name: UN Regulation No. 155 (cybersecurity management)
+  conforms: true
+  evidence: stated as a supported regulatory compliance target
+- id: un-r156
+  name: UN Regulation No. 156 (software update management)
+  conforms: true
+  evidence: stated as a supported regulatory compliance target
+- id: iec-62443
+  name: IEC 62443 (industrial automation & control systems security)
+  conforms: true
+  evidence: stated as a supported regulatory compliance target
